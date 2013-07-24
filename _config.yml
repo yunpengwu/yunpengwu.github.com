@@ -15,8 +15,8 @@ author :
   name : Aaron Wu
   email : yunpengwu@gmail.com
   github : yunpengwu
-  twitter : username
-  feedburner : feedname
+  twitter : yunpengwu
+#  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
