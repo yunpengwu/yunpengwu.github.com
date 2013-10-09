@@ -4,10 +4,31 @@ title: "为什么要写文档？"
 description: ""
 category: IT
 tags: [思考]
-excerpt: 对于程序员来说，只有一件事比测试还要讨厌，那就是写文档。The only thing that developers dislike more than testing is documentation.  —— 《The Pragmatic Programmer》
+excerpt: 程序员一般不喜欢写文档，或许越是喜欢写代码的程序员越不喜欢写文档。所以（The Pragmatic Programmer）里面有几句话写的很形象“The only thing that developers dislike more than testing is documentation”。
 ---
 {% include JB/setup %}
 
-对于程序员来说，只有一件事比测试还要讨厌，那就是写文档。The only thing that developers dislike more than testing is documentation.  —— 《The Pragmatic Programmer》
+程序员一般不喜欢写文档，或许越是喜欢写代码的程序员越不喜欢写文档。所以**（The Pragmatic Programmer）**里面有几句话写的很形象“The only thing that developers dislike more than testing is documentation”。
+
 ![programmer]({{site.url}}/assets/programmer.jpg)
+
+我以前也属于这种程序员，心里常常用“代码还没写好呢，还写文档？”这句话来反驳领导要求写文档的指示。随着年龄和经验的增长，关于写文档的观点已经发生了巨大的变化，心里会想另一句话“如果代码写好了呢？那文档……”
+
+**1. 文档有其不可替代性**
+
+确实有许多自动化文档工具（javadoc，phpdoc之类）可以将写文档的工作部分前移到写代码的阶段，确实也有很多优点（文档和代码在一起维护，避免文档的过时），也确实可以作为不喜欢写文档的程序员的一个强有力的借口。但是，自动化文档工具未必能解决所有的问题，比如有时候，一副架构图所能表达的清晰度胜过千言万语。
+
+在编程语言的优劣争论中，有一个不可争辩的观点是：确实存在一类项目，使用某种编程语言实现会比使用其他编程语言实现要方便得多，或者说，这种编程语言适合实现这类项目。同样的，可以认为编程语言，人类语言文字，图表只是用于表达问题的不同形式。正如**（The Pragmatic Programmer）**中所说的“Treat English as Just Another Programming Language”。要表达一个问题，也有适合使用的形式，编程语言这种形式不能解决所有的问题（例如，同非技术人员沟通）。
+
+**2. 写文档可以提高表达能力**
+
+文档既然是一种表达方式，那么自然的，写文档也就成了锻炼表达能力的一种手段。当然，写代码也是一种手段。优秀的程序员都强调代码的可读性和可维护性，甚至大牛可以将代码重构写成一本书**（Refactoring : Improving the Design of Existing Code）**。表达能力提高了，无论写文档还是写代码，都能把问题描述清楚，可读性都不会差的。
+
+**3. 好的文档对程序员本身也有查询便利性**
+
+由于代码除了表达之外，还有一个重要的属性是可执行。相比之下，文档的作用只是表达。所以，文档写出来，力求达到简单清晰的目的。至少能达到，忘记一个项目的重要逻辑信息时，查询文档比查询代码更加方便和快捷。能达到这一点的文档，就产生了可查询的便利性。
+
+**4. 写文档可以加深理解和记忆**
+
+从记忆的机制来说，用自己的话讲一遍可以增加记忆的提取线索，从而增大信息在使用时唤醒的几率。所以，写文档对于写的人来说也是增强记忆的好方法。刘未鹏的[如何有效的记忆与学习](http://mindhacks.cn/2009/03/28/effective-learning-and-memorization/)中有详细描述。
 
